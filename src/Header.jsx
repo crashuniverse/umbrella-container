@@ -5,9 +5,9 @@ import umbrellaLogo from "./assets/umbrella-corp-logo.webp";
 const Header = () => (
   <header>
     <div class="logo-container">
-      <a href="/">
+      <NavLink to="/">
         <img src={umbrellaLogo} className="logo" alt="umbrella logo" />
-      </a>
+      </NavLink>
       <div className="name">Umbrella Corporation</div>
     </div>
     <nav>

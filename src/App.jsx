@@ -1,9 +1,10 @@
+import { lazy } from 'react'
 import { Routes, Route } from 'react-router'
 import Header from './Header'
 import LandingPage from './LandingPage'
-import Research from './Research'
 import About from './About'
 import './App.css'
+const Research =lazy(() => import('umbrella_research/Research'))
 
 function App() {
   return (
