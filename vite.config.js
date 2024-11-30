@@ -9,7 +9,11 @@ export default defineConfig({
     federation({
       name: 'host-app',
       remotes: {
-        umbrella_research: 'http://localhost:4173/assets/remoteEntry.js',
+        // TODO: uncomment for local development
+        // umbrella_research: 'http://localhost:4173/assets/remoteEntry.js',
+        umbrella_research: {
+          external: 'https://heartfelt-florentine-0b131c.netlify.app/assets/remoteEntry.js',
+        },
       },
       shared: [],
     }),
