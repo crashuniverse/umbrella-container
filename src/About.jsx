@@ -1,5 +1,3 @@
-import React from "react";
-
 const AboutUmbrellaCorporation = () => {
   return (
     <div style={{ padding: "20px" }}>
@@ -37,7 +35,7 @@ const AboutUmbrellaCorporation = () => {
       </p>
       <h3>Umbrella Corporation</h3>
       <p>
-        <em>"Turning visions into reality."</em>
+        <em>&quot;Turning visions into reality.&quot;</em>
       </p>
     </div>
   );

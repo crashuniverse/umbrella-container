@@ -1,5 +1,3 @@
-import React from "react"
-
 const LandingPage = () => {
   return (
     <div style={{ padding: "20px" }}>
@@ -62,7 +60,7 @@ const LandingPage = () => {
         Umbrella Corporation
       </h3>
       <p style={{ textAlign: "center", fontStyle: "italic" }}>
-        "Shaping the Future, Together."
+        &quot;Shaping the Future, Together.&quot;
       </p>
       <p style={{ textAlign: "center", fontSize: "12px" }}>
         Disclaimer: This is a fictitious entity inspired by popular culture. Any

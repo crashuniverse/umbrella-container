@@ -1,10 +1,9 @@
-import React from "react";
 import { NavLink } from "react-router";
 import umbrellaLogo from "./assets/umbrella-corp-logo.webp";
 
 const Header = () => (
   <header>
-    <div class="logo-container">
+    <div className="logo-container">
       <NavLink to="/">
         <img src={umbrellaLogo} className="logo" alt="umbrella logo" />
       </NavLink>
